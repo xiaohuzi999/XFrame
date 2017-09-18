@@ -1,0 +1,4 @@
+﻿{
+	"TestView":["atlas/comp.json","atlas/common.json"],
+	"TestDialog":["atlas/comp.json"]
+}
