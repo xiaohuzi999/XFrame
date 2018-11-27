@@ -1,9 +1,1 @@
-{
-    // See https://go.microsoft.com/fwlink/?LinkId=733558
-    // for the documentation about the tasks.json format
-    "version": "0.1.0",
-    "command": "${workspaceRoot}/.laya/astool/layajs",
-    "isShellCommand": false,
-    "args": ["${workspaceRoot}/.actionScriptProperties;iflash=false;windowshow=false;chromerun=false;quickcompile=true"],
-    "showOutput": "always"
-}
+{"version":"0.1.0","command":"tsc","isShellCommand":true,"args":["-p",".","--outDir","bin/js"],"showOutput":"silent","problemMatcher":"$tsc"}
